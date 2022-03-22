@@ -81,6 +81,7 @@ public class customLibrary  extends RecyclerView.Adapter<customLibrary.MyViewHol
 
     public class MyViewHolder extends RecyclerView.ViewHolder {
         TextView Book_title,Book_year;
+
         View view;
         ImageButton ibFavourite;
         ImageView imageView;
