@@ -68,6 +68,7 @@ public class customLibrary  extends RecyclerView.Adapter<customLibrary.MyViewHol
                 Intent intent = new Intent(activity,EditBook.class);
                 intent.putExtra("Book",create);
                 activity.startActivity(intent);
+
             }
         });
 
